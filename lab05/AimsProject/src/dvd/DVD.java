@@ -50,7 +50,18 @@ public class DVD {
 		this.cost = cost;
 	}
 	public boolean search(String title) {
-		return this.title.contains(title);
+		title = title.toLowerCase();
+		String[] token = title.split(" ");
+		
+		String dvdTitle = this.title.toLowerCase();
+		
+		for(String tk : token) {
+			if(dvdTitle.contains(tk)) {
+				return true;
+			}
+		}
+		
+		return false;
 	}
 	
 }

@@ -8,8 +8,7 @@ public class NoGarbage {
 		
 		Random r = new Random(123);
 		long start = System.currentTimeMillis();
-		//StringBuilder sb = new StringBuilder();
-		StringBuffer sb = new StringBuffer();
+		StringBuilder sb = new StringBuilder();
 		for(int i = 0; i < 65536999; i++)
 			sb.append(r.nextInt(2));
 		

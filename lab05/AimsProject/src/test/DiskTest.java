@@ -24,19 +24,19 @@ public class DiskTest {
 		orders.printOrders();
 		
 		title = "Harry";
-		System.out.println("Find " + title + " in list of order: ");
+		System.out.println("\nSearch: " + title);
 		orders.searchInOrder(title);
 		
 		title = "Potter";
-		System.out.println("Find " + title + " in list of order: ");
+		System.out.println("\nSearch: " + title);
 		orders.searchInOrder(title);
 		
-		title = "Harry Potter";
-		System.out.println("Find " + title + " in list of order: ");
+		title = "buy Hary pOtTer dvd";
+		System.out.println("\nSearch: " + title);
 		orders.searchInOrder(title);
 		
 		// test lucky items
-		System.out.println("Random a lucky items: ");
+		System.out.println("\n\n\nRandom a lucky items: ");
 		orders.printOrders();
 		DVD luckyItem = orders.getALuckyItem();
 		orders.printItems(luckyItem, "Your lucky item is: ");
