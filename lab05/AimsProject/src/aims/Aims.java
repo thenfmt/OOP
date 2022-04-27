@@ -1,4 +1,7 @@
-package lab05.AimsProject;
+package aims;
+
+import dvd.DVD;
+import order.Order;
 
 public class Aims {
 	public static void main(String[] args) {

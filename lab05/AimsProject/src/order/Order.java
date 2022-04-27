@@ -1,4 +1,6 @@
-package lab05.AimsProject;
+package order;
+
+import dvd.DVD;
 
 public class Order {
 	public static final int Max_Order = 20;

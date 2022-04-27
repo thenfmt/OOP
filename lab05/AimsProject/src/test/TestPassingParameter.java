@@ -1,4 +1,6 @@
-package lab05.AimsProject;
+package test;
+
+import dvd.DVD;
 
 public class TestPassingParameter {
 	

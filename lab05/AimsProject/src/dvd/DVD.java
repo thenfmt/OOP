@@ -1,4 +1,4 @@
-package lab05.AimsProject;
+package dvd;
 
 public class DVD {
 	private String title;
